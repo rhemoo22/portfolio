@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea's Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav-bar" id="myNavBar">
+        <a href="#home" class="nav-button">HOME</a>
+        <a href="#about" class="nav-button">ABOUT</a>
+        <a href="#portfolio" class="nav-button">PORTFOLIO</a>
+        <!-- <a href="" class="nav-button">CONTACT</a> -->
+    </div>
+    
+
+    <div class="header-img" id="home">
+        <h1>RHEA'S PORTFOLIO</h1>
+            <!-- <img src="/images/logo.png" class="logo"> -->
+    </div>
+
+    <div class="sect" id="about">
+        <h2 class="center">ABOUT ME</h2>
+        <p class="center"><em>My Creative Journey</em></p>
+        <p>My name is Rhea Moozhayil, and I currently go to the University of Illinois at Urbana-Champaign. I study Computer Science + Advertising
+            which I believe is a really unique major. </p>
+            <p> I have learned so much in all of my courses including various coding languages like Python, C++,
+            Java, Javascript, Typescript, and node.js. I've worked with different frameworks like React Native, Angular, and Android Studio. I also have experience in SQL 
+            and have worked with databases in my courses.</p>
+            <p> But I believe that I am a true creative at heart. I took an Advertising class, called Creative Concepts, and got to make actual campaigns which then got entered into a contest!
+                I ended up winning Best Ad for one of my ads that was in the contest, which was judged by a senior director at Highdive Advertising.
+            </p>
+            <p>With this website that I coded, I hope that you get an insight of all my work over these past few years that I have put out. I am very passionate
+                about my future, and would love the opportunity to see where I can go with this! Enjoy : &#41;
+            </p>
+    </div>
+
+    <div class="portfolio-img">
+        <h1>CAMPAIGNS</h1>
+            <!-- <img src="/images/logo.png" class="logo"> -->
+    </div>
+
+    <div class="sect" id="portfolio">
+        <!-- <h2 class="center">MY CAMPAIGNS</h2> -->
+        <div class="gallery">
+            <div class="gallery">
+                <div class="brand" onclick="openModal(0)">
+                    <img src="images/uline_logo.svg" alt="Brand 1">
+                </div>
+                <div class="brand" onclick="openModal(1)">
+                    <img src="images/pyrex_logo.png" alt="Brand 2">
+                </div>
+                <div class="brand" onclick="openModal(2)">
+                    <img src="images/yeti_logo.png" alt="Brand 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">×</button>
+            <div class="ad-images" id="adImages">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/rhea-moozhayil-6a8288243/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </footer>
+
+    <script src="./portfolio.js"></script>
+</body>
+</html>
+
+<!-- I would like to credit w3 and ChatGPT for a lot of help throughout building my website -->
+
