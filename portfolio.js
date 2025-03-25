@@ -25,7 +25,7 @@
 const adData = [
     ["images/uline1.png", "images/uline2.png", "images/uline3.png"], // Ads for Brand 1
     ["images/pyrex_1.png", "images/pyrex_2.png", "images/pyrex_3.png"], // Ads for Brand 2
-    ["images/yeti1.png", "images/yeti2.png", "images/yeti3.png"]  // Ads for Brand 3
+    ["images/hiyo1.png", "images/hiyo2.png", "images/hiyo3.png"]  // Ads for Brand 3
 ];
 
 function openModal(index) {
